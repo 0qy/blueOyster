@@ -1,0 +1,1 @@
+export default text = 'hello/n  hello/n/n <>          *helo*' 

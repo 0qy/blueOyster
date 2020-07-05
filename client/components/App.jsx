@@ -1,9 +1,29 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
+import TextPage from './TextPage'
+
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { titleVisibe: true }
+  }
+
+  clickHandler = () => {
+    this.setState({
+      titleVisibe: false
+    })
+  }
+
+  render(){
+    return (
+      <div>
+        {this.state.titleVisibe
+          ? <button onClick={this.clickHandler}>start</button>
+          : <TextPage/>
+        }
+      </div>
+    )
+  }
 }
 
 export default App
