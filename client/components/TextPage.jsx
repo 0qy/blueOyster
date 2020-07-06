@@ -6,6 +6,7 @@ import { text } from '../textMarkdown'
 const TextPage = () => {
   return(
     <div>
+      <audio id="audio" autoPlay loop src="sound.mp3"/>
       <ReactMarkdown source={text} />
     </div>
   )

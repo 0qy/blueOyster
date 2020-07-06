@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div>
         {this.state.titleVisibe
-          ? <button onClick={this.clickHandler}>start</button>
+          ? <button id="start" onClick={this.clickHandler}>start</button>
           : <TextPage/>
         }
       </div>
