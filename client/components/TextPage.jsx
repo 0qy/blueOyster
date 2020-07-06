@@ -1,9 +1,12 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
+
+import { text } from '../textMarkdown'
 
 const TextPage = () => {
   return(
     <div>
-    <h1>hello</h1>
+    <ReactMarkdown source={text} />
     <pre><i>{`
       what is here is
       open, as much as
