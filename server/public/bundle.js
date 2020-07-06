@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 var TextPage = function TextPage() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
     source: _textMarkdown__WEBPACK_IMPORTED_MODULE_2__["text"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\n      what is here is\n      open, as much as\n      this there   \uD83D\uDF18\n                 \n\n\n\n\n\n    ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, "\n                             what is  sank\n                                    pregnant of   /darkmucous\n                                      limit ply  . ing\n                                  stick it-    eyes accord\n                                    mouths          corpos\n                                        trap nervousbloom\n                                    sticky   circuitreach\n                                      parlour fresh   step\n                                             seamd finger   . stoned\n                                                            . flow\n                                                             i'm riddled !                          \n                                                                within it\n    "));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TextPage);
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "text", function() { return text; });
-var text = "\n\n*what is here is  \nopen, as much as  \nthis there*&nbsp&nbsp&nbsp\uD83D\uDF18  \n  \n  \n  \n  \n  \n  \n  \n  \n&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspwhat is &nbspsank  \n&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppregnant of &nbsp&nbsp/darkmucous  \n\n";
+var text = "\n\n*what is here is  \nopen, as much as  \nthis there*&nbsp&nbsp&nbsp\uD83D\uDF18  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp  \n&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspwhat is &nbspsank  \n&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppregnant of &nbsp&nbsp/darkmucous  \n";
 
 /***/ }),
 
