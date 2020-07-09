@@ -10,8 +10,19 @@
 
 p {
   line-height: 0.2em;
-}
-
-span {
   white-space: nowrap;
 }
+
+span.strikethrough {
+  text-decoration: line-through;
+}
+
+span.emphasize {
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1.33em;
+}
+
+/* span {
+  white-space: nowrap;
+} */
