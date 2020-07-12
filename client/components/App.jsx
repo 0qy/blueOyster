@@ -20,11 +20,6 @@ class App extends React.Component {
     }
   }
 
-
-  isPlaying(audio) {
-    return !audio.ended
-  }
-
   render(){
     return (
       <div>
