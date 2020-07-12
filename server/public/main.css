@@ -12,6 +12,7 @@ div.text {
   background: rgb(255, 255, 255) transparent;
   text-shadow:6px 5px 6px white;
   width: 100%;
+  height: 100%;
   overflow: scroll;
   position: fixed;
 }
