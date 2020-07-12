@@ -9,11 +9,20 @@ class App extends React.Component {
   }
 
   clickHandler = () => {
-    this.setState({
-      titleVisibe: false
-    })
     const audio = document.getElementById("startAudio")
     audio.play()
+    audio.onplay = () => {
+      audio.onended = () => {
+        this.setState({
+          titleVisibe: false
+        })
+      }
+    }
+  }
+
+
+  isPlaying(audio) {
+    return !audio.ended
   }
 
   render(){

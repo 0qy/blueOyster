@@ -138,12 +138,16 @@ var App = /*#__PURE__*/function (_React$Component) {
     _this = _super.call(this, props);
 
     _defineProperty(_assertThisInitialized(_this), "clickHandler", function () {
-      _this.setState({
-        titleVisibe: false
-      });
-
       var audio = document.getElementById("startAudio");
       audio.play();
+
+      audio.onplay = function () {
+        audio.onended = function () {
+          _this.setState({
+            titleVisibe: false
+          });
+        };
+      };
     });
 
     _this.state = {
@@ -153,6 +157,11 @@ var App = /*#__PURE__*/function (_React$Component) {
   }
 
   _createClass(App, [{
+    key: "isPlaying",
+    value: function isPlaying(audio) {
+      return !audio.ended;
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.state.titleVisibe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
