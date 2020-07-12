@@ -25,6 +25,34 @@ div.imageContainer {
   z-index: -10;
 }
 
+img {
+  width: 100%;
+}
+
+div#start {
+  color: white;
+  position: absolute;
+  height: auto;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img#button {
+  height: 15%;
+  width: auto;
+  border-radius: 10px;
+}
+
+img#button:hover {
+  transform: scale(1.1,1.1);
+}
+
+img#button:active {
+  transform: translateY(4px);
+}
 
 p {
   line-height: 0.2em;

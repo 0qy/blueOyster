@@ -12,13 +12,18 @@ class App extends React.Component {
     this.setState({
       titleVisibe: false
     })
+    const audio = document.getElementById("startAudio")
+    audio.play()
   }
 
   render(){
     return (
       <div>
         {this.state.titleVisibe
-          ? <button id="start" onClick={this.clickHandler}>start</button>
+          ? <div id="start">
+              <img id="button" onClick={this.clickHandler} src="/startIcon.jpg"/>
+              <audio id="startAudio" src="startSound.mp3"/>
+            </div>
           : <TextPage/>
         }
       </div>

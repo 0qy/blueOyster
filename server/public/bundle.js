@@ -141,6 +141,9 @@ var App = /*#__PURE__*/function (_React$Component) {
       _this.setState({
         titleVisibe: false
       });
+
+      var audio = document.getElementById("startAudio");
+      audio.play();
     });
 
     _this.state = {
@@ -152,10 +155,16 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.state.titleVisibe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        id: "start",
-        onClick: this.clickHandler
-      }, "start") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextPage__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.state.titleVisibe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "start"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        id: "button",
+        onClick: this.clickHandler,
+        src: "/startIcon.jpg"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("audio", {
+        id: "startAudio",
+        src: "startSound.mp3"
+      })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TextPage__WEBPACK_IMPORTED_MODULE_1__["default"], null));
     }
   }]);
 
