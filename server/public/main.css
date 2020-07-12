@@ -17,6 +17,13 @@ div.text {
   position: fixed;
 }
 
+@media only screen
+and (orientation: portrait) {
+  * {
+    font-size: 23px;
+  }
+}
+
 div.imageContainer {
   width: 100%;
   height: 100%;
