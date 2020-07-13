@@ -76,6 +76,6 @@ span.emphasize {
   font-size: 1.33em;
 }
 
-/* span {
-  white-space: nowrap;
-} */
+span.endNote {
+  visibility: hidden;
+}
