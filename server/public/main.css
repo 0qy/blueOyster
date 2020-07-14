@@ -5,17 +5,31 @@
 
 * {
   font-family: "Inconsolata", monospace;
-  font-size: 33px;
+  font-size: 20px;
 }
 
+@media only screen
+and (orientation: portrait) {
+  * {
+    font-size: 28px
+  }
+}
 
 div.text {
   background: rgb(255, 255, 255) transparent;
-  text-shadow: 0 0 80px white, 0 0 80px white, 10px 10px 80px white, 5px 5px 50px white, 0 0 30px white;
   width: 100%;
   height: 100%;
   overflow: scroll;
   position: fixed;
+  text-shadow: #FFF 0px 0px 5px, 
+               #FFF 0px 0px 10px, 
+                #FFF 0px 0px 15px, 
+                #FFF 0px 0px 20px, 
+                #FFF 0px 0px 30px, 
+                #FFF 0px 0px 40px, 
+                #FFF 0px 0px 50px, 
+                #FFF 0px 0px 75px, 
+                18px 2px 20px #CE5937;
 }
 
 div.imageContainer {
@@ -42,7 +56,7 @@ div#start {
 }
 
 img#button {
-  height: 15%;
+  height: 10%;
   width: auto;
   border-radius: 10px;
 }
