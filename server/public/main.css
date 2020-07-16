@@ -1,10 +1,15 @@
 @font-face {
-  font-family: "Inconsolata";
-  src: url('fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-family: "Spectral Light";
+  src: url('fonts/Spectral/Spectral-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Spectral Light Italic";
+  src: url('fonts/Spectral/Spectral-LightItalic.ttf') format('truetype');
 }
 
 * {
-  font-family: "Inconsolata", monospace;
+  font-family: "Spectral Light", serif;
   font-size: 20px;
 }
 
@@ -13,6 +18,18 @@ and (orientation: portrait) {
   * {
     font-size: 28px
   }
+}
+
+span.italic {
+  font-family: "Spectral Light Italic";
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+span.blue {
+  color: #0000ff
 }
 
 div.text {
@@ -72,6 +89,7 @@ img#button:active {
 p {
   line-height: 0.2em;
   white-space: nowrap;
+  color: #753326;
 }
 
 span.strikethrough {
