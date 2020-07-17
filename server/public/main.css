@@ -29,7 +29,7 @@ span.underline {
 }
 
 span.blue {
-  color: #0000ff
+  color: #0000ff;
 }
 
 div.text {
@@ -103,5 +103,6 @@ span.emphasize {
 }
 
 span.endNote {
-  visibility: hidden;
+  visibility: visible;
+  color: #0000ff;
 }
