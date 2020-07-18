@@ -76,6 +76,7 @@ img#button {
   height: 10%;
   width: auto;
   border-radius: 10px;
+  border: solid #0000ff 0.1em;
 }
 
 img#button:hover {

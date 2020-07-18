@@ -24,14 +24,14 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        {/* {this.state.titleVisibe
+        {this.state.titleVisibe
           ? <div id="start">
               <img id="button" onClick={this.clickHandler} src="/startIcon.jpg"/>
               <audio id="startAudio" src="startSound.mp3"/>
             </div>
           : <TextPage/>
-        } */}
-        <TextPage/>
+        }
+        {/* <TextPage/> */}
       </div>
     )
   }
