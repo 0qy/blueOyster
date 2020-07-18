@@ -98,8 +98,9 @@ span.strikethrough {
 
 span.emphasize {
   text-decoration: underline;
-  font-style: italic;
+  font-family:"Spectral Light Italic";
   font-size: 1.33em;
+  color: blue;
 }
 
 span.endNote {
