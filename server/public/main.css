@@ -105,6 +105,6 @@ span.emphasize {
 }
 
 span.endNote {
-  visibility: visible;
+  visibility: hidden;
   color: #0000ff;
 }
