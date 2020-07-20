@@ -105,6 +105,7 @@ span.emphasize {
 }
 
 span.endNote {
-  visibility: hidden;
+  visibility: visible;
   color: #0000ff;
+  font-size: 0.75rem;
 }
